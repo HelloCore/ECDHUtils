@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pods/Classes/**/*'
 
-  s.dependency 'OpenSSL-Universal', '~> 1.0'
+  # s.dependency 'OpenSSL-Universal', '~> 1.0'
 end
