@@ -5,7 +5,9 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/ankitthakur/GMEllipticCurveCrypto"
   s.license          = 'BSD 2-Clause License'
   s.author           = { "MFEC" => "ps-sd@mfec.co.th" }
-  s.source           = "https://github.com/HelloCore/ECDHUtils.git"
+  s.source           = {
+    :git => "https://github.com/HelloCore/ECDHUtils.git"
+  }
 
   s.ios.deployment_target = '8.0'
 
